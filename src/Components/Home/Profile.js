@@ -48,7 +48,7 @@ const Profile = () => {
                                     wrapper="p"
                                 />
                             </h1>
-                            <span className="profile-role-">
+                            <span className="profile-role-tagline">
                                 Ability to create applications with both front and back end operations.
                             </span>
                         </span>
