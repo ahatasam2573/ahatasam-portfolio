@@ -31,31 +31,30 @@ const Profile = () => {
                             <h1>
                                 {" "}
                                 <Typical
-                                    loop={Infinity}
-                                    steps={
-                                        [
-                                            "Enthusiastic Developer❤️‍🔥",
-                                            1000,
-                                            "Frontend Developer💻",
-                                            1000,
-                                            "React Developer🥵",
-                                            1000,
-                                            "MERN Stack Dev😎",
-                                            1000,
-                                            "Cross PlatFrom Dev📱",
-                                            1000,
+                                    steps={[
+                                        "Enthusiastic Developer❤️‍🔥",
+                                        2000,
+                                        "Frontend Developer💻",
+                                        1000,
+                                        "React Developer🥵",
+                                        2000,
+                                        "MERN Stack Developer😎",
+                                        1000,
+                                        "Cross PlatFrom Developer🌏",
+                                        2000,
 
-                                        ]
-                                    }
+                                    ]}
+                                    loop={Infinity}
+                                    wrapper="p"
                                 />
                             </h1>
                             <span className="profile-role-">
-                                <h5>Ability to create applications with both front and back end operations.</h5>
+                                Ability to create applications with both front and back end operations.
                             </span>
                         </span>
                     </div>
                     <div className="profile-option">
-                        <button className='btn btn-primary'>
+                        <button className='btn primary-btn'>
                             Hire Me{" "}
                         </button>
                         <a href="Ahatasamul_Frontend_Developer_resume .pdf" download="Ahatasam Ahatasamul_Frontend_Developer_resume .pdf">
