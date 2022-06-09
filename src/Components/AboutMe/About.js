@@ -45,7 +45,7 @@ const About = () => {
                         <FloatingDiv img={Crown} text1='Web' text2='Developer' />
                     </div>
                     <div style={{ top: '25rem', left: '0rem' }}>
-                        <FloatingDiv img={Thumbup} text1='Best Coder' text2='Award' />
+                        <FloatingDiv img={Thumbup} text1='Done' text2='25+ Projects' />
                     </div>
                     <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
                     <div

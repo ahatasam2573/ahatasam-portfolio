@@ -1,0 +1,54 @@
+.button{
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+}
+.services {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    
+    height: 30rem;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+    margin-bottom: 13rem;
+    /* scroll view */
+    padding-top: 3rem;
+  }
+  /* left side */
+  .awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* gap: 20px; */
+  }
+  
+  .awesome > :nth-child(1) {
+    color: var(--black);
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+  .awesome > :nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .awesome > :nth-child(3) {
+    color: var(--gray);
+    font-size: 18px;
+    margin-top: 1rem;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+  .s-button {
+    margin-top: 1rem;
+  }
+.cards{
+    position: relative;
+}
+.cards>*{
+    position: absolute;
+}
