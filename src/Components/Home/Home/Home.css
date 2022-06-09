@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 .home-container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 500px;
     background-image: url('../../../assets//Home/bg.jpg');
+}
+.portfolio-heading{
+    font-size: 45px;
+    color: rgb(219, 81, 17);
+    font-family: 'Langar', cursive;
+    padding-left: 10px;
 }

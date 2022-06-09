@@ -15,10 +15,10 @@ const Services = () => {
                 <span>
                     Look at my services and if you like then
                     <br />
-                    Knock me
+                    Knock me!!
                 </span>
-                <a href="Ahatasamul_Frontend_Developer_resume .pdf" download=" Ahatasamul_Frontend_Developer_resume .pdf">
-                    <button className="button s-button">Download Resume</button>
+                <a href="Ahatasamul_Frontend_Developer_resume .pdf" download="Ahatasam Ahatasamul_Frontend_Developer_resume .pdf">
+                    <button className='btn-s highlighted-btn'>Download Resume</button>
                 </a>
                 <div className="blur s-blur1" style={{ background: "#ABBF1FF94" }}></div>
             </div>

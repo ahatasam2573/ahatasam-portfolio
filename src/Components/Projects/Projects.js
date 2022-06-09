@@ -7,8 +7,9 @@ import Photography from '../../img/photography.png'
 const Projects = () => {
     return (
         <div id='projects' className='container'>
-            <h1 className='projects-heading'>Projects</h1>
+            <h1 className='project-headings'>Projects</h1>
             <div className="project-list">
+
                 <div className="card">
                     <img src={Falgun} className="card-img-top" alt="picture" />
                     <div className="card-body">

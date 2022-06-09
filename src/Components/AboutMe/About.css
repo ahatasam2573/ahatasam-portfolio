@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&display=swap');
 
+
+.headings{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(219, 81, 17);
+    font-size: 40px;
+    font-family: 'Langar', cursive;
+}
 .about-container{
     margin-top: 30px;
     margin-bottom: 20px;
@@ -65,7 +74,7 @@
 }
 .about-pictures > :nth-child(4) {
     transform: scale(0.62);
-    top: -19%;
+    top: -12%;
     left: -24%;
     border-radius: 50%;
     padding: 0;

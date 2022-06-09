@@ -11,6 +11,7 @@ import FloatingDiv from '../FloatingDiv/FloatingDiv';
 const About = () => {
     return (
         <div id='about'>
+            <h1 className='headings'>About Me</h1>
             <div className="about-container container">
                 <div className="about-details">
                     <div className="card card-details">

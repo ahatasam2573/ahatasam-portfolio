@@ -1,6 +1,13 @@
-
 #experience{
     padding-top: 200px;
+}
+.experience-headings{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: -40px;
+    color: rgb(219, 81, 17);color: rgb(219, 81, 17);
+    font-size: 40px;
+    font-family: 'Langar', cursive;
 }
 .experience {
     display: flex;

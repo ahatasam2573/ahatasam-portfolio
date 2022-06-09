@@ -7,6 +7,7 @@ const Home = () => {
     return (
         <div id='#'>
             <div className="home-container">
+                <h1 className='portfolio-heading'>Ahatasam Siam</h1>
                 <Profile />
                 <BgFooter />
             </div>

@@ -1,11 +1,11 @@
-.projects-heading{
-    font-family: 'Shrikhand', cursive;
-    font-size: 40px;
+.project-headings{
     text-align: center;
-    padding-top: 20px;
-    color: var(--black);
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: rgb(219, 81, 17);
+    font-size: 40px;
+    font-family: 'Langar', cursive;
 }
-
 .project-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
