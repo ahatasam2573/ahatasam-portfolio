@@ -116,7 +116,7 @@
     background-repeat: no-repeat;   
 }
 .profile-picture-background:hover{
-    transition-duration: 3s;
+    transition-duration: 2s;
     transform: scale(1.1);
     max-width: 100%;
 }
