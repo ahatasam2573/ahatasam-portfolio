@@ -83,3 +83,35 @@
     left: 56%;
     filter: blur(72px);
   }
+@media screen and (max-width: 480px) {
+    .about-container{
+        flex-direction: column;
+        height: 84rem;
+        gap: 7rem;
+    }
+    .card-details{
+        width: auto;
+    }
+    .card-heading{
+        font-size: 15px;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+    .list li{
+        font-size: 15px;
+    }
+    .about-pictures{
+        margin-top: 50px;
+        transform: scale(0.7);
+        left: -7rem;
+    }
+    .about-pictures .blur{
+        display: none;
+    }
+    .floating-div:nth-of-type(1){
+        top:-7rem !important;
+    }
+}
+ 
+  

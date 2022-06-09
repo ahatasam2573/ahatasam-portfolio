@@ -12,7 +12,6 @@ import Contact from './Components/ContactMe/Contact';
 function App() {
   return (
     <div>
-      <Navbar />
       <Home />
       <About />
       <Services />
@@ -20,6 +19,7 @@ function App() {
       <Experience />
       <Testimonial />
       <Contact />
+      <Navbar />
     </div >
   );
 }

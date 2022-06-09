@@ -41,10 +41,10 @@ const About = () => {
                     <img src={Vector2} alt="pictures" />
                     <img className='me-pic' src={Me} alt="pictures" />
                     <img src={Glassesimoji} alt="" />
-                    <div style={{ top: '-6%', left: '75%' }}>
+                    <div className='floating-div' style={{ top: '-6%', left: '75%' }}>
                         <FloatingDiv img={Crown} text1='Web' text2='Developer' />
                     </div>
-                    <div style={{ top: '25rem', left: '0rem' }}>
+                    <div className='floating-div' style={{ top: '25rem', left: '0rem' }}>
                         <FloatingDiv img={Thumbup} text1='Done' text2='25+ Projects' />
                     </div>
                     <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
