@@ -6,6 +6,7 @@ import Me from '../../img/about-me-pic.png';
 import Thumbup from '../../img/thumbup.png';
 import Crown from '../../img/crown.png';
 import Glassesimoji from '../../img/glassesimoji.png';
+import FloatingDiv from '../FloatingDiv/FloatingDiv';
 
 const About = () => {
     return (
@@ -36,9 +37,27 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about-pictures">
-                    {/* <img src={Vector1} alt="pictures" />
+                    <img src={Vector1} alt="pictures" />
                     <img src={Vector2} alt="pictures" />
-                    <img className='me-pic' src={Me} alt="pictures" /> */}
+                    <img className='me-pic' src={Me} alt="pictures" />
+                    <img src={Glassesimoji} alt="" />
+                    <div style={{ top: '-6%', left: '75%' }}>
+                        <FloatingDiv img={Crown} text1='Web' text2='Developer' />
+                    </div>
+                    <div style={{ top: '25rem', left: '0rem' }}>
+                        <FloatingDiv img={Thumbup} text1='Best Coder' text2='Award' />
+                    </div>
+                    <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+                    <div
+                        className="blur"
+                        style={{
+                            background: "#C1F5FF",
+                            top: "17rem",
+                            width: "21rem",
+                            height: "11rem",
+                            left: "-9rem",
+                        }}
+                    ></div>
                 </div>
             </div>
         </div>

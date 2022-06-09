@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&display=swap');
 
 .about-container{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .card-details{
     height: 600px;
@@ -32,20 +34,16 @@
     justify-content: space-between;
 }
  
- 
- 
- 
- 
- 
- /* .me-pic{
+ .me-pic{
      width: 290px;
      height: 410px;
  }
  .about-pictures{
+     margin-left: 70px;
      flex: 1;
      position: relative;
  }
- .about-pictures *{
+ .about-pictures> *{
      position: absolute;
      z-index: 1;
  }
@@ -56,6 +54,32 @@
     top: -9%;
 }
 .about-pictures>:nth-child(2){
-    top: 4.6%;
-    
-} */
+    top: -4.6rem;
+    transform: scale(0.67);
+    left: -3rem;
+}
+.about-pictures>:nth-child(3){
+    transform: scale(1.4);
+    left: 28%;
+    top: -25px;
+}
+.about-pictures > :nth-child(4) {
+    transform: scale(0.62);
+    top: -19%;
+    left: -24%;
+    border-radius: 50%;
+    padding: 0;
+  }
+
+  .blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(212px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
+  }
