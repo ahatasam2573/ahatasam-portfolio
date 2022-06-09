@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (
-        <div className="n-wrapper" id="Navbar">
+        <div className="container-fluid n-wrapper" id="Navbar">
             {/* left */}
             <div className="n-left">
                 <div className="n-name">Ahatasam Siam</div>
@@ -36,6 +36,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
+                <button className="button n-button">Contact ME</button>
             </div>
         </div>
     );

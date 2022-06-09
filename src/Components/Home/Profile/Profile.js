@@ -53,7 +53,7 @@ const Profile = () => {
                     </div>
                     <div className="profile-options">
                         <button className='btn primary-btn'>
-                            Hire Me{" "}
+                            Hire Me
                         </button>
                         <a href="Ahatasamul_Frontend_Developer_resume .pdf" download="Ahatasam Ahatasamul_Frontend_Developer_resume .pdf">
                             <button className='btn highlighted-btn'>Get Resume</button>

@@ -1,0 +1,33 @@
+.about-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* .me-pic{
+     width: 290px;
+     height: 410px;
+ }
+ .about-pictures{
+     flex: 1;
+     position: relative;
+ }
+ .about-pictures *{
+     position: absolute;
+     z-index: 1;
+ }
+
+.about-pictures>:nth-child(1){
+    transform: scale(0.69);
+    right: -15%;
+    top: -9%;
+}
+.about-pictures>:nth-child(2){
+    top: 4.6%;
+    
+} */
