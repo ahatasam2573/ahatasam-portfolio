@@ -8,29 +8,29 @@ const Navbar = () => {
             {/* left */}
             <div className="n-left">
                 <div className="n-name">Ahatasam Siam</div>
-                <span>toggle</span>
+                {/* <span>toggle</span> */}
             </div>
             {/* right */}
             <div className="n-right">
                 <div className="n-list">
                     <ul style={{ listStyleType: "none" }}>
                         <li>
-                            <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+                            <Link activeClass="active" to="/" spy={true} smooth={true}>
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link to="services" spy={true} smooth={true}>
+                            <Link to="/aboutMe" spy={true} smooth={true}>
                                 About Me
                             </Link>
                         </li>
                         <li>
-                            <Link to="works" spy={true} smooth={true}>
+                            <Link to="/projects" spy={true} smooth={true}>
                                 Projects
                             </Link>
                         </li>
                         <li>
-                            <Link to="testimonial" spy={true} smooth={true}>
+                            <Link to="/testimonial" spy={true} smooth={true}>
                                 Testimonial
                             </Link>
                         </li>

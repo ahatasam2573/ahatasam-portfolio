@@ -14,8 +14,8 @@ const About = () => {
             <div className="about-container container">
                 <div className="about-details">
                     <div className="card card-details">
-                        <div class="card-body">
-                            <p class="card-text">Full stack web developer with experience with MERN stacks and redux, as well as a knack for building applications that are as efficient as possible. Strong professional with a BSC eager to contribute to an organization.</p>
+                        <div className="card-body">
+                            <p className="card-text">Full stack web developer with experience with MERN stacks and redux, as well as a knack for building applications that are as efficient as possible. Strong professional with a BSC eager to contribute to an organization.</p>
                             <p className='card-heading'>Among the highlights are the following:</p>
                             <ul className='list'>
                                 <li>🟠 Web development from the ground up</li>
