@@ -8,7 +8,7 @@ import Card from '../../Card/Card';
 
 const Services = () => {
     return (
-        <div className='services container'>
+        <div id='services' className='services container'>
             <div className="awesome">
                 <span className='service-title'>My Awesome</span>
                 <span>Services</span>

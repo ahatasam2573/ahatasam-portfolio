@@ -6,7 +6,7 @@ import Photography from '../../img/photography.png'
 
 const Projects = () => {
     return (
-        <div className='container'>
+        <div id='projects' className='container'>
             <h1 className='projects-heading'>Projects</h1>
             <div className="project-list">
                 <div className="card">

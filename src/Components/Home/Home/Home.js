@@ -5,7 +5,7 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div>
+        <div id='#'>
             <div className="home-container">
                 <Profile />
                 <BgFooter />

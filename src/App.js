@@ -6,6 +6,8 @@ import About from './Components/AboutMe/About';
 import Projects from './Components/Projects/Projects';
 import Services from './Components/Services/Services';
 import Experience from './Components/Experience/Experience';
+import Testimonial from './Components/Testimonial/Testimonial'
+import Contact from './Components/ContactMe/Contact';
 
 function App() {
   return (
@@ -13,9 +15,11 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      {/* <Projects /> */}
       <Services />
+      <Projects />
       <Experience />
+      <Testimonial />
+      <Contact />
     </div >
   );
 }

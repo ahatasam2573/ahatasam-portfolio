@@ -10,7 +10,7 @@ import FloatingDiv from '../FloatingDiv/FloatingDiv';
 
 const About = () => {
     return (
-        <div>
+        <div id='about'>
             <div className="about-container container">
                 <div className="about-details">
                     <div className="card card-details">
