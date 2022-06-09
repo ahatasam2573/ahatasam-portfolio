@@ -31,21 +31,19 @@ const Profile = () => {
                             <h1>
                                 {" "}
                                 <Typical
+                                    loop={Infinity}
                                     steps={[
                                         "Enthusiastic Developer❤️‍🔥",
-                                        2000,
+                                        3000,
                                         "Frontend Developer💻",
-                                        1000,
+                                        3000,
                                         "React Developer🥵",
-                                        2000,
+                                        3000,
                                         "MERN Stack Developer😎",
-                                        1000,
+                                        3000,
                                         "Cross PlatFrom Developer🌏",
-                                        2000,
-
+                                        3000,
                                     ]}
-                                    loop={Infinity}
-                                    wrapper="p"
                                 />
                             </h1>
                             <span className="profile-role-tagline">
