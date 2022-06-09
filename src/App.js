@@ -9,7 +9,7 @@ import Experience from './Components/Experience/Experience';
 
 function App() {
   return (
-    <div className='App'>
+    <div>
       <Navbar />
       <Home />
       <About />
