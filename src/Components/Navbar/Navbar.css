@@ -2,7 +2,7 @@
 .n-wrapper {
     height: 10vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     justify-items: center;
     align-items: center;
     margin-bottom: 2rem;

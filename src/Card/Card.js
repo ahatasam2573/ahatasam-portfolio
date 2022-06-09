@@ -5,8 +5,8 @@ const Card = ({ emoji, heading, detail, color }) => {
     return (
         <div className="single-card" style={{ borderColor: { color } }}>
             <img src={emoji} alt="" />
-            <span>{heading}</span>
-            <span>{detail}</span>
+            <span className="heading">{heading}</span>
+            <span className="detail">{detail}</span>
             <button className="c-button">LEARN MORE</button>
         </div>
     );

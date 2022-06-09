@@ -1,6 +1,6 @@
 .single-card{
-  width: 16rem;
-  height: 25rem;
+  width: 20rem;
+  height: 22rem;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -8,10 +8,21 @@
   align-items: center;
   text-align: center;
   background: rgba(255, 255, 255, 0.26);
-  border: 7px solid var(--orangeCard);
+  border: 7px solid var(--blueCard);
   box-shadow: var(--boxShadow);
   border-radius: 20px;
   padding: 0px 26px 2rem 26px;
+}
+.heading{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Baloo bhai 2',cursive;
+    color: var(--orange);
+}
+.detail{
+    font-size: 16px;
+    font-family: 'Baloo bhai 2',cursive;
+    padding: 2px;
 }
 .card span:nth-of-type(2) {
     color: var(--gray);
