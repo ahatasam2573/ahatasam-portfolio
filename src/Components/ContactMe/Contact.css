@@ -50,5 +50,7 @@ textarea{
     .c-right .user{
         width: 16rem;
     }
-
+    .c-blur1{
+        display: none;
+    }
 }

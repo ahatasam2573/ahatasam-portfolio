@@ -18,7 +18,7 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <div>
+        <div id="contact">
             <h1 className='headings'>Contact Me</h1>
             <div className="contact-form">
                 <div className="w-left">

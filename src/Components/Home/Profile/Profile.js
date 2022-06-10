@@ -1,8 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Typical from 'react-typical';
 import './Profile.css'
 
 const Profile = () => {
+    const navigate = useNavigate();
+    const handleToContact = () => {
+
+    }
     return (
         <div className="profile-container">
             <div className="profile-parent">
@@ -52,7 +57,7 @@ const Profile = () => {
                         </span>
                     </div>
                     <div className="profile-options">
-                        <button className='btn primary-btn'>
+                        <button onClick={handleToContact} className='btn primary-btn'>
                             Hire Me
                         </button>
                         <a href="Ahatasamul_Frontend_Developer_resume .pdf" download="Ahatasam Ahatasamul_Frontend_Developer_resume .pdf">

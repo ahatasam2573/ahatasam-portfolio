@@ -100,6 +100,7 @@
     }
     .card-details{
         width: auto;
+        margin:10px;
     }
     .card-heading{
         font-size: 15px;
@@ -112,8 +113,9 @@
     }
     .about-pictures{
         margin-top: 50px;
-        transform: scale(0.7);
+        transform: scale(0.6);
         left: -7rem;
+        padding: 0px;
     }
     .about-pictures .blur{
         display: none;

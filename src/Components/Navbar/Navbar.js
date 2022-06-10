@@ -12,7 +12,7 @@ import { useState } from 'react';
 const Navbar = () => {
     const [activeNav, setActiveNav] = useState('#');
     return (
-        <nav>
+        <nav >
             <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
             <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''} z><AiOutlineUser /></a>
             <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
@@ -23,6 +23,5 @@ const Navbar = () => {
         </nav>
     );
 };
-
 
 export default Navbar;
