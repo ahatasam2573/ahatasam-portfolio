@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import SingleProject from '../SingleProject/SingleProject';
 import './Project.css'
 
 const Project = ({ project }) => {
@@ -8,7 +7,6 @@ const Project = ({ project }) => {
     const navigate = useNavigate();
     const handleToSingleProject = event => {
         event.preventDefault();
-        navigate(<SingleProject></SingleProject>)
     }
     return (
         <div class="card project-card">
