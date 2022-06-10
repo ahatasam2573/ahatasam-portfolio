@@ -8,6 +8,7 @@ import Services from './Components/Services/Services';
 import Experience from './Components/Experience/Experience';
 import Testimonial from './Components/Testimonial/Testimonial'
 import Contact from './Components/ContactMe/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Testimonial />
       <Contact />
       <Navbar />
+      <Footer />
     </div >
   );
 }

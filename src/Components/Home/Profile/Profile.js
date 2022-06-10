@@ -1,12 +1,12 @@
-import React from 'react';
+import Reac from 'react';
 import { useNavigate } from 'react-router-dom';
 import Typical from 'react-typical';
 import './Profile.css'
 
 const Profile = () => {
-    const navigate = useNavigate();
-    const handleToContact = () => {
-
+    let navigate = useNavigate();
+    const handleToContact = event => {
+        event.preventDefault();
     }
     return (
         <div className="profile-container">
@@ -57,9 +57,7 @@ const Profile = () => {
                         </span>
                     </div>
                     <div className="profile-options">
-                        <button onClick={handleToContact} className='btn primary-btn'>
-                            Hire Me
-                        </button>
+                        <a className='btn primary-btn' style={{ textDecoration: 'none', listStyle: 'none', color: 'white' }} href="http://localhost:3000/#contact">Hire Me</a>
                         <a href="Ahatasamul_Frontend_Developer_resume .pdf" download="Ahatasam Ahatasamul_Frontend_Developer_resume .pdf">
                             <button className='btn highlighted-btn'>Get Resume</button>
                         </a>
