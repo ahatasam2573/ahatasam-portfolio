@@ -68,7 +68,7 @@ code {
 ::-webkit-scrollbar {
   /* width: 6px !important;
   height: 6px !important; */
-  display: none;
+  /* display: none; */
 }
 
 body ::-webkit-scrollbar-thumb {
@@ -81,6 +81,9 @@ body ::-webkit-scrollbar-thumb {
 
 ::-webkit-scrollbar-track {
   background: hsla(0, 0%, 100%, 0.1);
+}
+html{
+  scroll-behavior: smooth;
 }
 
 
