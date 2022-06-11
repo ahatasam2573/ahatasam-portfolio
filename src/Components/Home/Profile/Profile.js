@@ -1,4 +1,4 @@
-import Reac from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Typical from 'react-typical';
 import './Profile.css'
@@ -32,10 +32,8 @@ const Profile = () => {
                     </div>
                     <div className="profile-details-role">
                         <span className='primary-text'>
-
                             <h1>
-                                {" "}
-                                <Typical
+                                <Typical style={{ fontFamily: 'Baloo Bhai 2' }}
                                     loop={Infinity}
                                     steps={[
                                         "Enthusiastic Developer❤️‍🔥",
@@ -57,7 +55,10 @@ const Profile = () => {
                         </span>
                     </div>
                     <div className="profile-options">
-                        <a className='btn primary-btn' style={{ textDecoration: 'none', listStyle: 'none', color: 'white' }} href="http://localhost:3000/#contact">Hire Me</a>
+                        <a href="#contact" >
+                            <button onClick={handleToContact} className='btn primary-btn'>Hire Me</button>
+                        </a>
+
                         <a href="Ahatasamul_Frontend_Developer_resume .pdf" download="Ahatasam Ahatasamul_Frontend_Developer_resume .pdf">
                             <button className='btn highlighted-btn'>Get Resume</button>
                         </a>

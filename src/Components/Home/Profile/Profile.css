@@ -17,11 +17,6 @@
     font-size: 15px;
     background-color: #1f2235;
   }
-  /* @media only screen and (max-width: 414px) {
-    .primary-btn {
-      font-size: 13px;
-    }
-  } */
   
   .primary-btn:hover {
     color: aliceblue;
@@ -157,6 +152,9 @@
 @media screen and (max-width: 810px){
     .profile-picture{
         margin: 0 !important;
+    }
+    .primary-text{
+        font-size: 10px;
     }
     .profile-parent{
         flex-direction: column-reverse;

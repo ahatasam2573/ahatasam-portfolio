@@ -4,7 +4,7 @@ footer{
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
-    font-family: 'Baloo bhai2',cursive;
+    font-family: 'Baloo Bhai 2';
 }
 footer a{
     color: var(--yellow);
@@ -25,6 +25,8 @@ footer a{
     margin: 0 auto 3rem;
     list-style: none;
     text-decoration: none;
+    font-family: 'Baloo Bhai 2';
+    font-size: 18px;
 }
 .permalinks a{
     text-decoration: none;
@@ -42,7 +44,11 @@ footer a{
 @media screen and (max-width:600px) {
     .permalinks{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 1.5rem;
+        font-family: 'Baloo Bhai 2';
+        font-size: 18px;
     }
     
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
-
+import { toast } from 'react-toastify';
 import './Contact.css';
 
 const Contact = () => {
@@ -11,7 +11,7 @@ const Contact = () => {
 
         emailjs.sendForm('service_t41hhbf', 'template_lbbwzws', form.current, 'xpMnxF5gvd9rKbtnK')
             .then((result) => {
-                console.log(result.text);
+                toast.success("Thank You. I will response as soon as possible!!")
             }, (error) => {
                 console.log(error.text);
             });
@@ -35,7 +35,7 @@ const Contact = () => {
                         <input type="text" name="name" className="user" placeholder="Name" required />
                         <input type="email" name="email" className="user" placeholder="Email" required />
                         <textarea name="message" className="user" rows='7' placeholder="Message" required />
-                        <input type="submit" value="Submit" className="btn-s highlighted-btn" />
+                        <input className='btn primary-btn' type="submit" value="Submit" />
                         <div
                             className="blur c-blur1"
                             style={{ background: "var(--purple)" }}
