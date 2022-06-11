@@ -5,13 +5,18 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div id='#'>
+        <section id='#'>
             <div className="home-container">
-                <h1 className='portfolio-heading'>Ahatasam Siam</h1>
+                <div className="header-container">
+                    <h1 className='portfolio-heading'>Ahatasam Siam</h1>
+                    <div className="heading-details mt-2 mr-3">
+                        <h3 className='project-title' style={{ color: 'rgb(219, 81, 17)', fontSize: '28px', fontFamily: ' Langar, cursive' }}>Projects</h3>
+                    </div>
+                </div>
                 <Profile />
                 <BgFooter />
             </div>
-        </div>
+        </section>
     );
 };
 

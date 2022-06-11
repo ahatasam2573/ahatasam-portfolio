@@ -12,3 +12,26 @@
     font-family: 'Langar', cursive;
     padding-left: 10px;
 }
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.heading-details{
+    display: flex;
+}
+.heading-details>*{
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .portfolio-heading{
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    /* .heading-details .project-title{
+        font-size: 12px;
+        margin-left: 20px
+    } */
+}
+
