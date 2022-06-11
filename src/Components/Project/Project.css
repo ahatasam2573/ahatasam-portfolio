@@ -1,10 +1,11 @@
 .project-card{
-    height: 300px;
-    width: 300px;
+    height: 650px;
+    width: 500px;
     background: rgba(255, 255, 255, 0.26);
   border: 7px solid var(--blueCard);
   box-shadow: var(--boxShadow);
   border-radius: 20px;
+  font-family: 'Baloo bhai 2',cursive;
 }
 .project-card:hover{
     text-shadow: none !important;
@@ -35,10 +36,15 @@
     border: 2px solid #ff5823;
     background-color: #1f2235;
 }
+.project-btn-card{
+    display: flex;
+    justify-content: space-between;
+}
 
 @media screen and (max-width: 480px){
     .project-card{
-        margin-left: 0px;
-        padding-left: 0px;
+        margin: auto;
+        padding: auto;
+        width: auto;
     }
 }

@@ -1,44 +1,62 @@
 [
     {
         "id": 1,
+        "img": "https://i.ibb.co/tmNQGz8/faqshion.png",
         "name": "Falgun Fashion House",
         "heading": "This is a website of a Inventory Management System",
         "description": "❖ Login, registration, and email confirmation Google and Github popup login, as well as password reset, are supported. ❖ In the Inventory Management section, users can edit, delete, and add items, as well as delete their selected item.❖ Users can also leave feedback.",
-        "technology": "React, React Bootstrap, Node JS, Express JS,MongoDB"
+        "technology": "React, React Bootstrap, Node JS, Express JS,MongoDB",
+        "website" : "https://falgun-fashion-house.web.app/home",
+        "github": "https://github.com/ahatasam2573/falgun-fashion-house"
     },
     {
         "id": 2,
+        "img": "https://i.ibb.co/L1xnncs/paint.png",
         "name": "Paint Brush",
         "heading": "This is a website of Manufacturer Company",
         "description": "❖ Implementing the various types of parts, our business summary, customer reviews, dashboard, order summary, all users list and so on. ❖ Google Popup login system.❖ An admin can make other users admin and control them, but a non user can not. ",
-        "technology": "React,tailwind CSS,DaisyUi, Node JS, Express JS,MongoDB"
+        "technology": "React,tailwind CSS,DaisyUi, Node JS, Express JS,MongoDB",
+        "website" : "https://paint-brush-ccca7.web.app/",
+        "github": "https://github.com/ahatasam2573/paintBrush-client"
     },
     {
         "id": 3,
+        "img": "https://i.ibb.co/hHHF05g/photography.png",
         "name": "Ahatasam Wild Photography",
         "heading": "This is a website of Various types of Wild Photograph",
         "description": "❖ Various types of wild photo display with a lovely button.  ❖ Simple and lovely design. ❖ Google and Github popups, as well as an email login and registration system, have been implemented very.",
-        "technology": "React,React Bootstrap,bootstrap5"
+        "technology": "React,React Bootstrap,bootstrap5",
+        "website" : "https://ahatasam-wild-photograph-7e28d.web.app/",
+        "github": "https://github.com/ahatasam2573/ahatasam-wild-photography"
     },
     {
         "id": 4,
+        "img": "https://i.ibb.co/DgvcJnd/doctors.png",
         "name": "Doctors Portal",
         "heading": "This is a website of Online Doctor Appointment",
         "description": "❖ Showing a beautiful design and responsive and Full stack website. ❖ So many feature and also contact form. ❖ Appointment List where you can book your appointment and take serial for your appointment. ❖ You can not book appointment in the same time in a day. If you want to book there shows a toast. ❖ Login system, protected route, admin section, dashboard and many more cool feature",
-        "technology": "React JS,Tailwind Css, DaisyUi, Node JS, MongoDb, Express js, React query and others."
+        "technology": "React JS,Tailwind Css, DaisyUi, Node JS, MongoDb, Express js, React query and others.",
+        "website" : "https://doctors-portal-fb612.web.app/",
+        "github": "https://github.com/ahatasam2573/Doctors-Portal"
     },
     {
         "id": 5,
+        "img": "https://i.ibb.co/6s8MH88/screencapture-text-utilits-master-netlify-app-2022-06-11-13-27-46.png",
         "name": "Text Utils",
         "heading": "This is a website of Text Utils where you can change your written text into many types.",
         "description": "❖ A simple text box where you can write your text and also You can enable dark mode if you want. ❖ The text what you write you can convert those into Capital, Lower, Copy the whole text, remove extra space if there has any extra space with just one click. ❖ Bottom of the text box there is a feature added where you can see what are you writing in box and what time it takes to write. ❖ There is a Also a Preview section where you can preview your whole text.",
-        "technology": "React JS, Html5, CSS3, Js Library"
+        "technology": "React JS, Html5, CSS3, Js Library",
+        "website" : "https://text-utilits-master.netlify.app/",
+        "github": "https://github.com/ahatasam2573/text-utilities"
     },
     {
         "id": 6,
+        "img": "https://i.ibb.co/9pFfB2S/watchify.png",
         "name": "Watchify",
         "heading": "This is a website of a Watch Store",
         "description": "❖ Showing some beautiful watch to buy ❖ You can buy watch and also add your selected watch ❖ Then from the selected where is a featured this site can choose you a watch that is so cool.",
-        "technology": "React js, React navigation, html5, css3"
+        "technology": "React js, React navigation, html5, css3",
+        "website" : "https://watchify-website-watch.netlify.app/",
+        "github": "https://github.com/ahatasam2573/watchify"
     }
 ]
