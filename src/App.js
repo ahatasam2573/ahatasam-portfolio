@@ -10,7 +10,6 @@ import Testimonial from './Components/Testimonial/Testimonial'
 import Contact from './Components/ContactMe/Contact';
 import Footer from './Components/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
-import Skills from './Components/Skills/Skills';
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
       <About />
       <Services />
       <Projects />
-      <Skills />
       <Experience />
       <Testimonial />
       <Contact />

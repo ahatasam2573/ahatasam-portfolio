@@ -15,22 +15,22 @@ const Testimonial = () => {
         {
             img: profilePic1,
             review:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+                "Very Hard Worker and so active.Feel free to hire him.",
         },
         {
             img: profilePic2,
             review:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+                "So talented, dedicated and have good knowledge about design and development.",
         },
         {
             img: profilePic3,
             review:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+                "He is so humble and very dedicated about his work.Know how to handle any types of situation",
         },
         {
             img: profilePic4,
             review:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+                "One of the best thing about him is he knows how to handle a customer and solve their any types of technical issue.",
         },
     ];
 
@@ -53,7 +53,7 @@ const Testimonial = () => {
                         <SwiperSlide key={index}>
                             <div className="testimonial">
                                 <img src={client.img} alt="" />
-                                <span>{client.review}</span>
+                                <span className="review-test">{client.review}</span>
                             </div>
                         </SwiperSlide>
                     );

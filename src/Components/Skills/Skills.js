@@ -2,8 +2,8 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div id='skills'>
-            This is skill
+        <div>
+            <h1>This is skill</h1>
         </div>
     );
 };
