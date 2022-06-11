@@ -13,7 +13,7 @@ const Projects = () => {
             .then(data => setProjects(data));
     }, [])
     return (
-        <section id='projects' className='container'>
+        <section className='container'>
             <h1 className='project-headings'>Projects</h1>
             <div className="row">
                 <div className="projects-container">
