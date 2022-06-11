@@ -18,9 +18,7 @@ function App() {
       <Home />
       <About />
       <Services />
-      <Routes>
-        <Route element={<Projects></Projects>}></Route>
-      </Routes>
+      <Projects />
       <Skills />
       <Experience />
       <Testimonial />
