@@ -27,11 +27,8 @@ const About = () => {
                                 <li>🟠 Managing a database</li>
                             </ul>
                             <div id='new-style' className="profile-options">
-                                {/* <a className='btn ' style={{ textDecoration: 'none', listStyle: 'none', color: 'white' }} href="http://localhost:3000/#contact">
-                                    <button className='btn highlighted-btn'>Get Resume</button>
-                                </a> */}
 
-                                <a href="Ahatasamul_Frontend_Developer_resume .pdf" download="Ahatasam Ahatasamul_Frontend_Developer_resume .pdf">
+                                <a href="/#contact">
                                     <button className='btn primary-btn'>Hire Me</button>
                                 </a>
 

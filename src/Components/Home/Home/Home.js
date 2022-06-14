@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import BgFooter from '../BgFooter/BgFooter';
 import Profile from '../Profile/Profile';
 import './Home.css'

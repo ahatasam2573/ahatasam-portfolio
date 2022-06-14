@@ -7,6 +7,7 @@ const Profile = () => {
     let navigate = useNavigate();
     const handleToContact = event => {
         event.preventDefault();
+        navigate = ('/#contact');
     }
     return (
         <div className="profile-container">
@@ -55,8 +56,8 @@ const Profile = () => {
                         </span>
                     </div>
                     <div className="profile-options">
-                        <a href="#contact" >
-                            <button onClick={handleToContact} className='btn primary-btn'>Hire Me</button>
+                        <a href="/#contact" >
+                            <button className='btn primary-btn'>Hire Me</button>
                         </a>
 
                         <a href="Ahatasamul_Frontend_Developer_resume .pdf" download="Ahatasam Ahatasamul_Frontend_Developer_resume .pdf">
